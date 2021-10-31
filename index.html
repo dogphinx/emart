@@ -7,28 +7,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>피코크 브라운치즈 와플 288g - 이마트몰, 당신과 가장 가까운 이마트</title>
-  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
-  <style>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- <style>
     img {
       width: 1%;
     }
 
     /* 배치용 임시 css */
-  </style>
+  </style> -->
 </head>
 
 <body>
   <header>
     <div id="SSG_search_bar_container">
-      <div class="SSG_search_bar">
-        <a href="#">
-          <img src="img/채워두기용.png" alt="쓱닷컴 로고">
-        </a>
-        <div>
+      <div class="clear">
+        <!-- <img src="img/채워두기용.png" alt="쓱닷컴 로고"> -->
+        <a href="#">SSG.COM</a>
+        <div></div>
+        <!-- <img src="./img/sp_skyscraper_20200115.png" alt="아래 화살표"> -->
+        <div class="SSG_search_bar">
           <input type="text">
-          <button></button>
+          <button><i class="fas fa-search"></i></button>
         </div>
-        <div>
+        <div class="soaring_search_words">
+          <span>1. 한우데이</span>
+          <span>&#45;</span>
+        </div>
+        <div class="hidden">
           <p>급상승 검색어</p>
           <span>1~10위</span>
           <span>11~20위</span>
@@ -77,43 +86,43 @@
           <p>2021-10-27 18:00 기준</p>
         </div>
         <div>
+          <a href="#"><i class="far fa-heart"></i></a>
+          <a href="#"><i class="far fa-user"></i></a>
+          <a href="#"><i class="fas fa-truck"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <div>
           <a href="#">로그인</a>
           <span>&#183;</span>
           <a href="#">회원가입</a>
           <span>&#183;</span>
           <a href="#">고객센터</a>
         </div>
-        <div>
-          <a href="#">하트</a>
-          <a href="#">사람</a>
-          <a href="#">배송</a>
-          <a href="#">장바구니</a>
-        </div>
       </div>
     </div>
     <div id="emartmall_search_bar_contatiner">
       <div class="emartmall_search_bar">
         <a href="#">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <!-- alt 언더바 안넣고 띄워쓰기도 가능. 한국어도 가능. 우리나라에서는 한국어로 쓰는게 좋다. -->
+          <div></div>
         </a>
         <div>
           <input type="text">
-          <button></button>
+          <button><img src="./img/btn_search_white.png" alt="검색버튼"></button>
+          <!-- alt 언더바 안넣고 띄워쓰기도 가능. 한국어도 가능. 우리나라에서는 한국어로 쓰는게 좋다. -->
         </div>
         <a href="#">
-          <img src="img/채워두기용.png" alt="공인협력업체 로고(Authorized Reseller)">
+          <div></div>
         </a>
         <a href="#">
-          <img src="img/채워두기용.png" alt="피코크 로고">
+          <img src="img/피코크도 쓱배송.png" alt="피코크 로고">
         </a>
       </div>
     </div>
   </header>
 
   <nav>
-    <ul id="main_menu">
-      <li><a href="#"><img src="img/채워두기용.png" alt="">이마트몰 카테고리</a></li>
+    <ul id="main_menu" class="clear">
+      <li><a href="#"><i class="fas fa-bars"></i>이마트몰 카테고리</a></li>
       <li><a href="#">자주구매</a></li>
       <li><a href="#">베스트</a></li>
       <li><a href="#">신상품</a></li>
@@ -122,18 +131,18 @@
       <li><a href="#">e-요리</a></li>
       <li><a href="#">기획전</a></li>
       <li><a href="#">이벤트&쿠폰</a></li>
-      <li><a href="#">공식 브랜드관</a></li>
-      <li><a href="#">쓱-배송시간을 확인하세요. <img src="img/채워두기용.png" alt="아래 화살표"></a></li>
+      <li><a href="#">공식 브랜드관<i class="fas fa-chevron-down"></i></a></li>
+      <li><a href="#">쓱-배송시간을 확인하세요. <i class="fas fa-chevron-down"></i></a></li>
     </ul>
   </nav>
 
   <nav>
-    <ul id="sub_menu">
+    <ul id="sub_menu" class="clear">
       <li><a href="#">이마트몰</a></li>
       <li>/</li>
       <li>
-        <a href="#">과자/시리얼/빙과/떡 <img src="img/채워두기용.png" alt="아래 화살표"></a>
-        <ul class="mini_menu">
+        <a href="#">과자/시리얼/빙과/떡 <i class="fas fa-chevron-down"></i></a>
+        <ul class="mini_menu hidden">
           <li><a href="#">과일</a></li>
           <li><a href="#">채소</a></li>
           <li><a href="#">쌀/잡곡/견과</a></li>
@@ -144,8 +153,8 @@
       </li>
       <li>/</li>
       <li>
-        <a href="#">과자/쿠키/파이 <img src="img/채워두기용.png" alt="아래 화살표"></a>
-        <ul class="mini_menu">
+        <a href="#">과자/쿠키/파이 <i class="fas fa-chevron-down"></i></a>
+        <ul class="mini_menu hidden">
           <li><a href="#">과자/쿠키/파이</a></li>
           <li><a href="#">떡/한과/전통과자</a></li>
           <li><a href="#">소시지/원물/안주스낵</a></li>
@@ -156,8 +165,8 @@
       </li>
       <li>/</li>
       <li>
-        <a href="#">쿠키/비스킷 <img src="img/채워두기용.png" alt="아래 화살표"></a>
-        <ul class="mini_menu">
+        <a href="#">쿠키/비스킷 <i class="fas fa-chevron-down"></i></a>
+        <ul class="mini_menu hidden">
           <li><a href="#">일반과자</a></li>
           <li><a href="#">쿠키/비스킷</a></li>
           <li><a href="#">크래커</a></li>
@@ -170,23 +179,23 @@
     </ul>
   </nav>
 
-  <aside>
+  <aside class="hidden">
     <div id="commercial_1">
       <ul class="commercial_card">
-        <li><a href="#"><img src="img/채워두기용.png" alt="삼성카드 할인">삼성카드</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="롯데카드 할인">롯데카드</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="현대카드 할인">현대카드</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="쓱페이 계좌결제">쓱페이 계좌결제</a></li>
+        <li><a href="#"><img src="img/삼성카드 SSGPAY 5_ 청구할인 (10_23_24).jpg" alt="삼성카드 할인">삼성카드</a></li>
+        <li><a href="#"><img src="img/삼성카드 SSGPAY 5_ 청구할인 (10_23_24).jpg" alt="롯데카드 할인">롯데카드</a></li>
+        <li><a href="#"><img src="img/삼성카드 SSGPAY 5_ 청구할인 (10_23_24).jpg" alt="현대카드 할인">현대카드</a></li>
+        <li><a href="#"><img src="img/삼성카드 SSGPAY 5_ 청구할인 (10_23_24).jpg" alt="쓱페이 계좌결제">쓱페이 계좌결제</a></li>
       </ul>
     </div>
     <div id="commercial_2">
       <ul class="commercial_goods">
         <!-- 자동 슬라이드(4초) -->
-        <li><a href="#"><img src="img/채워두기용.png" alt="매일유업 인기유제품">매일유업</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="남양 인기유제품">남양</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="욕실/청소 전품목 행사">욕실</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="하기스외 특가대전">하기스</a></li>
-        <li><a href="#"><img src="img/채워두기용.png" alt="애경 인기상품 40% 할인">애경</a></li>
+        <li><a href="#"><img src="img/10_21_10_27 매일유업_.jpg" alt="매일유업 인기유제품">매일유업</a></li>
+        <li><a href="#"><img src="img/10_21_10_27 매일유업_.jpg" alt="남양 인기유제품">남양</a></li>
+        <li><a href="#"><img src="img/10_21_10_27 매일유업_.jpg" alt="욕실/청소 전품목 행사">욕실</a></li>
+        <li><a href="#"><img src="img/10_21_10_27 매일유업_.jpg" alt="하기스외 특가대전">하기스</a></li>
+        <li><a href="#"><img src="img/10_21_10_27 매일유업_.jpg" alt="애경 인기상품 40% 할인">애경</a></li>
       </ul>
       <img src="img/채워두기용.png" alt="왼쪽 화살표">
       <img src="img/채워두기용.png" alt="오른쪽 화살표">
@@ -196,714 +205,725 @@
   </aside>
 
   <div class="section_container">
-    <section>
+    <section class="clear">
       <!-- 사진부터 - 바로구매까지 -->
       <div id="goods_picture_container">
-        <div>
-          <img src="img/채워두기용.png" alt="상품 사진">
+        <div class="picture_area">
+          <!-- <img src="img/피코크 브라운치즈와플 288g [NEO택배].jfif" alt="상품 사진">
           <img src="img/채워두기용.png" alt="상품 사진 부분 확대">
           <img src="img/채워두기용.png" alt="상품 사진 1">
           <img src="img/채워두기용.png" alt="상품 사진 2">
-          <img src="img/채워두기용.png" alt="상품 사진 3">
+          <img src="img/채워두기용.png" alt="상품 사진 3"> -->
+          <div></div>
+          <div class="clear">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <!-- 다운받아둔 사진찾기가 생각보다 오래걸려서 그냥 빈박스로 대체 -->
         </div>
-        <div>
-          <span>고객리뷰</span>
-          <span><a href="#">별점채우기</a></span>
-          <img src="img/채워두기용.png" alt="페이스북 로고">
-          <img src="img/채워두기용.png" alt="트위터 로고">
+        <div class="customer_review">
+          <div>고객리뷰</div>
+          <span><a href="#">★★★★★</a></span>
+          <span><a href="#">4.9</a></span>
+          <span><a href="#">(39건)</a></span>
+          <div></div>
+          <div></div>
         </div>
-        <div>
-          <span>연관기획전</span>
+        <div class="related_exhibition clear">
+          <div>연관기획전</div>
           <a>
-            <img src="img/채워두기용.png" alt="동서식품/코카콜라">
+            <!-- <img src="img/채워두기용.png" alt="동서식품/코카콜라"> -->
+            <div></div>
             <span>이주의 브랜드! 동서식품/코카콜라</span>
-          </a>
-          <a>
-            <img src="img/채워두기용.png" alt="인기 과자 브랜드">
-            <span>인기 과자 브랜드 최대 1+1 할인중</span>
           </a>
         </div>
       </div>
       <div id="goods_text_container">
-        <img src="img/채워두기용.png" alt="스토어 사진">
-        <div>
-          <h2>(주)삼아인터내셔날 스토어</h2>
-          <p>과자/간식/시리얼/빙과 주간 매출 상위 5% 스토어</p>
-        </div>
-        <button>♡ 좋아요</button>
-      </div>
-      <img src="img/채워두기용.png" alt="이마트몰 로고">
-      <a href="#">#PEACOCK</a>
-      <h1>피코크 브라운치즈와플 288g</h1>
-      <p>원산지: 상세설명참조</p>
-      <p><span>5,980</span>원</p>
-      <p>(10g 당 : 208원, 총 용량 : 288g)</p>
-      <div>
-        <p>카드혜택가</p>
-        <p><span>5,382</span>원~</p>
-        <div>카드사 확인<img src="img/채워두기용.png" alt="아래 화살표"></div>
-      </div>
-      <div>
-        <p>구매혜택</p>
-        <p>다다익선</p>
-        <p>2개 이상 구매시 30% 할인<br>(2021.10.17~2021.10.27)</p>
-      </div>
-      <div>
-        <p>카드혜택</p>
-        <div>
-          <button>무이자 할부 <img src="img/채워두기용.png" alt="아래 화살표"></button>
-          <button>SSG.COM카드 바로발급 <img src="img/채워두기용.png" alt="아래 화살표"></button>
-          <button>SSGPAY카드 바로 발급 <img src="img/채워두기용.png" alt="아래 화살표"></button>
-        </div>
-      </div>
-      <div>
-        <p>배송정보</p>
-        <p><a href="#">로그인</a> 하시면 배송지에 맞는 배송유형을 확인하실 수 있습니다.</p>
-      </div>
-      <div>
-        <p>피코크 브라운치즈와플 288g</p>
-        <button>&#45;</button>
-        <input type="text" value="1">
-        <button>&#43;</button>
-        <p><span>5,980</span>원</p>
-      </div>
-      <p>합계 <span>5,980</span><span>원</span></p>
-      <div>
-        <input type="checkbox">
-        <p>정기적으로 상품을 배송받을 수 있습니다.</p>
-        <button>장바구니</button>
-        <button>바로구매</button>
-        <button>♡</button>
-      </div>
-    </section>
-
-    <section>
-      <!-- 함께 보면 좋은 상품 -->
-      <h2>함께 보면 좋은 상품 <a href="#">더보기 &lt;</a></h2> <!-- h3 태그안에 a 태그 검사결과 괜찮! -->
-      <button>&lt;</button>
-      <button>&gt;</button>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>PEACOCK</p>
-        <p>피코크 브라운치즈 와플 288g [NEO택배]</p>
-        <p><span>5,980</span>원</p>
-        <p>(10g당:208원)</p>
-        <p><span>★★★★★</span>(2개)</p>
-        <p>새벽배송 가능</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>PEACOCK</p>
-        <p>피코크 우리밀버터와플 288g</p>
-        <p><span>4,980</span>원</p>
-        <p>(10g당:173원)</p>
-        <p><span>★★★★★</span>(22개)</p>
-        <p>새벽배송 가능</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <img src="img/채워두기용.png" alt="SSG푸드마켓 로고">
-        <p>[로투스]오리지날 벨기에 와플 위드 초콜렛 57.5g</p>
-        <p><span>990</span>원</p>
-        <p>(10g당:171원)</p>
-        <p><span>★★★★★</span>(7,054개)</p>
-        <p>새벽배송 가능</p>
-        <button>#커피와함께</button>
-        <button>#출출할때</button>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135g)</p>
-        <p><span>1,900</span>원</p>
-        <p>(10g당:1,408원)</p>
-        <p>★★★★★ <span>(1개)</span></p>
-        <p>새벽배송 가능</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>[올바이오]유기농 스트룹 와플 2종 택 1</p>
-        <p><span>6,860</span>원</p> <!-- 블록으로 넣고싶으면 p 태그안에 span태그 보통 안넣어서 찾아보기. ex. span span 으로 주기 -->
-        <p>유기농</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>[크라운] 버터와플 316g (NEO.002택배)</p>
-        <p><span>2,980</span>원 <s>4,380</s><span>원</span><img src="img/채워두기용.png" alt="under_arrow"></p>
-        <p>(10g당:95원)</p>
-        <p>★★★★★ <span>(130개)</span></p>
-        <p>새벽배송 가능</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135gx15개)</p>
-        <p><span>31,000</span>원</p>
-        <p>(100ea당:1,531원)</p>
-        <p>★★★★★ <span>(3개)</span></p>
-        <p>무료배송</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135gx15개)</p>
-        <p><span>31,000</span>원</p>
-        <p>(100ea당:1,531원)</p>
-        <p>★★★★★ <span>(3개)</span></p>
-        <p>무료배송</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135gx15개)</p>
-        <p><span>31,000</span>원</p>
-        <p>(100ea당:1,531원)</p>
-        <p>★★★★★ <span>(3개)</span></p>
-        <p>무료배송</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135gx15개)</p>
-        <p><span>31,000</span>원</p>
-        <p>(100ea당:1,531원)</p>
-        <p>★★★★★ <span>(3개)</span></p>
-        <p>무료배송</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135gx15개)</p>
-        <p><span>31,000</span>원</p>
-        <p>(100ea당:1,531원)</p>
-        <p>★★★★★ <span>(3개)</span></p>
-        <p>무료배송</p>
-      </div>
-      <div class="recommend_goods">
-        <img src="img/채워두기용.png" alt="상품 사진">
-        <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>주식회사 크라운</p>
-        <p>버터와플(135gx15개)</p>
-        <p><span>31,000</span>원</p>
-        <p>(100ea당:1,531원)</p>
-        <p>★★★★★ <span>(3개)</span></p>
-        <p>무료배송</p>
-      </div>
-    </section>
-    <section>
-      <!-- 상품상세정보 ~ 인기상품 바로 전까지 -->
-      <nav>
-        <!-- 상품 관련 네비게이션 -->
-        <ul>
-          <li><a href="#">상품상세정보</a></li>
-          <li><a href="#">고객리뷰 (24)</a></li>
-          <li><a href="#">배송/반품/교환 안내</a></li>
-        </ul>
-      </nav>
-      <div>
-        <!-- 상품상세정보 -->
-        <h2>상품상세정보</h2>
-        <p>상품번호 : 1000241675735</p>
-        <div id=goods_introduction>
-          <p>풍미가 남다른 <br>브라운 치즈 와플</p>
-          <p>시노베 브라운 치즈를 넣어 풍미가 남다른 와플입니다. 달콤하면서도 짭조름한 맛이 조화를 이루는 와플로, 커피나 와인과 함께 즐겨보시길 추천드려요.</p>
-          <img src="img/채워두기용.png" alt="와플 사진 1">
-          <img src="img/채워두기용.png" alt="큰따옴표">
-          <p>노르웨이에서 날아온 단짠 브라운 치즈 사용</p>
-          <img src="img/채워두기용.png" alt="큰따옴표">
-          <p>특별한 풍미가 매력적인 프리미엄 와플 스낵</p>
-          <img src="img/채워두기용.png" alt="와플 사진 2">
-          <p>브라운 치즈 와플</p>
-          <p>노르웨이 소 우유를 카라멜 라이징 하여 만든 시노베 브라운 치즈가 들어간 브라운 치즈 와플입니다. <br>
-            브라운 치즈는 노르웨이에서 150년 이상 역사를 가진 전통 치즈예요. 특히 단 맛과 짭조름한 맛이 <br>
-            조화를 이루며 유청을 오랜 시간 졸인 뒤 크림을 넣었기 때문에 먹음직스러운 갈색빛을 띄고 고소한 <br>
-            맛이 있어요. 커피, 와인 한 잔과 함께 드셔도 정말 맛있는 브라운 치즈 와플을 지금 바로 만나보세요.
-          </p>
-          <img src="img/채워두기용.png" alt="와플 사진 3">
-          <img src="img/채워두기용.png" alt="돋보기">
-          <p>아래 이미지에 마우스를 올리시면 확대됩니다</p>
-          <img src="img/채워두기용.png" alt="와플 상세 사진">
-          <img src="img/채워두기용.png" alt="와플 상품 설명">
-          <img src="img/채워두기용.png" alt="느낌표">
-          <p>SSG.COM에서 제공하는 모든 이미지 및 콘텐츠는 저작권법에 의거 보호받는 자산으로 <br>
-            무단 복제, 배포, 도용 시 법적조치를 받을 수 있음을 알려드립니다.
-          </p>
-          <p>Copyright (C) SSG.COM All rights reserved. All pictures cannot be copied without permission.</p>
-        </div>
-        <div id="good_details">
-          <p>상품필수정보</p>
-          <table>
-            <tr>
-              <th>품명 및 모델명</th>
-              <th>식품의 유형</th>
-              <th>생산자 및 소재지</th>
-              <th>수입자</th>
-              <th>제조연월일/유통기한</th>
-              <th>포장 단위별 내용물의 용량 (중량), 수량, 크기</th>
-              <th>주원료/함량 (원료 원산지)</th>
-              <th>영양성분</th>
-              <th>유전자 변형식품 여부</th>
-              <th>사용할 때 주의사항</th>
-              <th>소비자 상담 관련 전화번호</th>
-              <th>수입식품안전관리특별법에 따른 수입신고 필함 여부</th>
-            </tr>
-            <tr>
-              <td>브라운 치즈 와플</td>
-              <td>과자</td>
-              <td>(주)삼아인터내셔날 / 충남 아산시 신차연 서부남로 270번길 48 (상세설명 참조)</td>
-              <td>해당사항 없음</td>
-              <td>점포 배송 상품으로 각 점포별 제조일과 입고일이 상이하여, 유통기한이 다릅니다. 이마트 점포상품과 동일한 품질을 유지한 상품이 배송됩니다. ※ 해당 정보에 대한 문의는
-                고객센터(1577-3419)로 문의해주세요/점포 배송 상품으로 각 점포별 제조일과 입고일이 상이하여, 유통기한이 다릅니다. 이마트 점포상품과 동일한 품질을 유지한 상품이 배송됩니다. ※
-                해당 정보에 대한 문의는 고객센터(1577-3419)로 문의해주세요/측면 표기일까지</td>
-              <td>288g (24g X 12봉)</td>
-              <td>상세설명참조</td>
-              <td>상세설명참조</td>
-              <td>해당사항 없음</td>
-              <td>상세설명참조</td>
-              <td>02-380-5678</td>
-              <td>해당사항 없음</td>
-            </tr>
-          </table>
+        <!-- <img src="img/채워두기용.png" alt="스토어 사진"> -->
+        <div class="store clear">
+          <div></div>
           <div>
-            <img src="img/채워두기용.png" alt="경보기 아이콘">
-            <p>
-              <b>상품 정보</b>에 문제가 있나요?
-            </p>
-            <a href="#">신고하기></a>
+            <h2>(주)삼아인터내셔날 스토어</h2>
+            <p>과자/간식/시리얼/빙과 주간 매출 상위 5% 스토어</p>
+          </div>
+          <button>♡ 좋아요</button>
+        </div>
+        <!-- <img src="img/채워두기용.png" alt="이마트몰 로고"> -->
+        <div></div>
+        <a href="#">#PEACOCK</a>
+        <h1>피코크 브라운치즈와플 288g</h1>
+        <p>원산지: 상세설명참조</p>
+        <p><span>5,980</span>원</p>
+        <p>(10g 당 : 208원, 총 용량 : 288g)</p>
+        <div>
+          <p>카드혜택가</p>
+          <p><span>5,382</span>원~</p>
+          <div>카드사 확인 <i class="fas fa-chevron-down"></i></div>
+        </div>
+        <div>
+          <p>구매혜택</p>
+          <p>다다익선</p>
+          <p>2개 이상 구매시 30% 할인<br>(2021.10.17~2021.10.27)</p>
+        </div>
+        <div>
+          <p>카드혜택</p>
+          <div>
+            <button>무이자 할부 <i class="fas fa-chevron-down"></i></button>
+            <button>SSG.COM카드 바로발급 <i class="fas fa-chevron-down"></i></button>
+            <button>SSGPAY카드 바로 발급<i class="fas fa-chevron-down"></i></button>
           </div>
         </div>
-      </div>
-      <div>
-        <!-- 고객리뷰 -->
-        <h2>고객리뷰(24)</h2>
-        <img src="img/채워두기용.png" alt="광고. 파워리뷰어에 도전하세요.">
         <div>
-          <p>구매고객 총별점</p>
-          <p>★★★★★</p>
-          <p>4.8 <span>/5</span><img src="img/채워두기용.png" alt="표정 이모티콘"></p>
-        </div>
-        <p>※ 리뷰 등록, 수정, 삭제 및 상세 내용은 [MY SSG > 활동관리 > 리뷰 관리]에서 확인하실 수 있습니다.</p>
-        <div>
-          <ul>
-            <li>전체 (24)</li>
-            <li>포토 (1)</li>
-            <li>동영상 (0)</li>
-          </ul>
-          <div>
-            <ul>
-              <li>추천순</li>
-              <!-- ul 안에 글자가 들어가도 안됨 li외에는 안됨. li 하나 더 추가. 두번째 li 에 ul 하는 방식-->
-              <li>
-                <ul>
-                  <li>추천순</li>
-                  <li>최신순</li>
-                  <li>평점높은순</li>
-                  <li>평점낮은순</li>
-                </ul>
-              </li>
-            </ul>
-            <img src="img/채워두기용.png" alt="아래 화살표">
-          </div>
-          <!-- <button>은 내부 HTML 콘텐츠(<em>, <strong>, 심지어 <img>도)에 더해 ::after와 ::before 의사 요소를 사용하는 복잡한 렌더링도 가능합니다. - mdn -->
-          <!-- ul, ol 자식은 li 만 가능. 글자 안됨!!! li 외에 아무것도 들어가면 안됨! -->
-          <button>내점포만보기</button>
+          <p>배송정보</p>
+          <p><a href="#">로그인</a> 하시면 배송지에 맞는 배송유형을 확인하실 수 있습니다.</p>
         </div>
         <div>
-          <ul>
-            <li>
-              <p>1</p>
-              <p>★★★★★</p>
-              <img src="img/채워두기용.png" alt="카메라 아이콘">
-              <p>한봉3개씩 낱개포장이고 치즈맛에 많이 나서 치즈쿠키 같아요. 약간 느끼한거 빼면 평탑니다. 흠.. 궁금해서 함 주문해?는데 걍 기성 버터와플이 더 개취인듯..</p>
-              <p>ice*******</p>
-              <p>2021-10-11</p>
-              <div>
-                <p>한봉3개씩 낱개포장이고 치즈맛에 많이 나서 치즈쿠키 같아요. 약간 느끼한거 빼면 평탑니다. 흠.. 궁금해서 함 주문해?는데 걍 기성 버터와플이 더 개취인듯..</p>
-                <img src="img/채워두기용.png" alt="사진">
-              </div>
-            </li>
-            <li>
-              <p>2</p>
-              <p>★★★★★</p>
-              <p>한상자에 12개 들어있어요! 시중에 파는 버터와플과자 그거보다 두껍고 좀 더 부드럽데 바삭하게 씹히는 식감이고 향은 치즈향이 강한데 맛은 살짝 나요! 커피나 우유찍먹해도 맛있을거
-                같아요!! 시노베 브라운치즈 와플 과자 너무 궁금했는데 성분표보니까 거의똑같고 제조원도 같아서 이마트에서 주문해봤는데 가성비도 좋고 맛있어요~~
-              </p>
-              <p>qkr*******</p>
-              <p>2021-10-20</p>
-              <div>
-                <p>한상자에 12개 들어있어요! 시중에 파는 버터와플과자 그거보다 두껍고 좀 더 부드럽데 바삭하게 씹히는 식감이고 향은 치즈향이 강한데 맛은 살짝 나요! 커피나 우유찍먹해도 맛있을거
-                  같아요!! 시노베 브라운치즈 와플 과자 너무 궁금했는데 성분표보니까 거의똑같고 제조원도 같아서 이마트에서 주문해봤는데 가성비도 좋고 맛있어요~~
-                </p>
-              </div>
-            </li>
-            <li>
-              <p>3</p>
-              <p>★★★★★</p>
-              <p>우왕. 너무 맛있어요. 어린시절 제과점서 사먹던 치즈비스킷 맛이 나요
-                요즘은 그런거 안나와서 섭섭했는데 그 맛이네요.
-                브라운치즈는 안먹어봐서 이맛이 그맛인지는 몰겄그유
-              </p>
-              <p>elv*******</p>
-              <p>2021-10-13</p>
-              <div>
-                <p>우왕. 너무 맛있어요. 어린시절 제과점서 사먹던 치즈비스킷 맛이 나요
-                  요즘은 그런거 안나와서 섭섭했는데 그 맛이네요.
-                  브라운치즈는 안먹어봐서 이맛이 그맛인지는 몰겄그유
-                </p>
-              </div>
-            </li>
-          </ul>
-          <button>1</button>
-        </div>
-      </div>
-      <div>
-        <!-- 배송/반품/교환 안내 -->
-        <h2>배송안내</h2>
-        <ul>
-          <li>
-            <img src="img/채워두기용.png" alt="쓱배송 로고">
-            <p>쓱배송 이마트</p>
-            <p>원하는 시간에 원하는 장소로 배송 됩니다.</p>
-            <p>4만원 이상 무료배송 <br>
-              4만원 미만 배송비 3000원</p>
-          </li>
-          <li>
-            <img src="img/채워두기용.png" alt="쓱배송 트레이더스 로고">
-            <p>쓱배송 트레이더스</p>
-            <p>무거운 상품도 집에서 편하게 받아보세요.</p>
-            <p>10만원 이상 배송비 2000원 <br>
-              10만원 미만 배송비 4000원</p>
-          </li>
-          <li>
-            <img src="img/채워두기용.png" alt="새벽배송 로고">
-            <p>새벽배송</p>
-            <p>전날 밤 12시까지 주문하면 아침 6시 전에 배송됩니다.</p>
-            <p>4만원 이상 무료배송 <br>
-              4만원 미만 배송비 3000원</p>
-          </li>
-          <li>
-            <img src="img/채워두기용.png" alt="택배 아이콘">
-            <p>택배 배송 / 점포 택배</p>
-            <p>점포 또는 업체 및 산지에서 주문 후 평균 2~3일 이내 택배 배송됩니다</p>
-            <p>상품상세 상단 표기된 배송비 참고</p>
-          </li>
-          <li>
-            <img src="img/채워두기용.png" alt="매장픽업 아이콘">
-            <p>매장픽업</p>
-            <p>이마트에 직접 방문해서 상품을 픽업! 더 빠르게 만나보세요!</p>
-            <p>배송비 없음</p>
-          </li>
-          <li>
-            <img src="img/채워두기용.png" alt="해외직구 아이콘">
-            <p>해외직구</p>
-            <p>해외 브랜드 혹은 협력 업체가 소싱한 상품이 해외에서 고객님께 배송됩니다.</p>
-            <p>상품상세 상단 표기된 배송비 참고</p>
-          </li>
-        </ul>
-        <ul>
-          <li>무료배송 및 배송비 할인은 동일한 배송딱지가 붙은 상품들의 합계금액을 기준으로 적용됩니다.(업체배송/일부 별도 배송 제외)</li>
-          <li>택배 배송기일은 휴일 포함여부 및 상품 재고상황, 택배사 사정에 의해 지연될 수 있습니다.</li>
-          <li>상품별/권역별로 가능한 배송유형이 다릅니다. 상품상세 상단에 표기된 배송정보에서 확인해주세요.</li>
-          <li>제주/도서산간 지역은 추가 운임이 발생할 수 있습니다.</li>
-          <li>[명절배송] 수취거부나 장기간 부재로 배송이 불가능한 상품은 주문 고객 주소로 반송 됩니다.</li>
-          <li>[명절배송] 신선세트(정육,청과,선어등)의 경우 수취인 부재 또는 배송지 정보 오류로 인해 반송될 경우 교환/환불이 제한됩니다.</li>
-          <li>[명절배송] 냉장/냉동 상품은 희망발송일 지정이 불가하며, 특정일로부터 순차발송 됩니다. 자세한 내용은 주문서에서 확인해 주시기 바랍니다.</li>
-          <li>[다중배송] 장바구니에서 여러 주소지로 한번에 주문 결제가 가능합니다.(일부상품 제외)</li>
-        </ul>
-        <h2>교환 및 반품 안내</h2>
-        <ul>
-          <li>
-            <span>교환/반품 신청기간</span>
-            <p>단순변심 및 사이즈/색상 불만에 관련된 교환/반품 신청은 배송완료 후 7일 이내에 가능합니다.</p>
-            <p>상품이 표기/광고내용과 다르거나 계약내용과 다른 경우 상품을 받으신 날부터 3개월 이내,</p>
-            <p>또는 사실을 알게된 날(알 수 있었던 날)부터 30일 이내에 신청 가능합니다.</p>
-          </li>
-          <li>
-            <span>교환/반품 회수(배송)비용</span>
-            <p>상품의 불량/하자 또는 표시광고 및 계약 내용과 다른 경우 해당 상품의 회수(배송)비용은 무료이나, 고객님의 단순변심 및 사이즈/색상 불만에 관련된 교환/반품의 경우 택배비는 고객님
-              부담입니다.</p>
-            <p><strong>반품 배송비: 3,000원</strong><br><strong>교환 배송비: 6,000원</strong><br>제주/도서산간 지역은 추가 운임이 발생할 수 있습니다.</p>
-            <p>단, 반품/교환 비용은 상품 및 반품/교환 사유에 따라 변경될 수 있으므로 반품/교환 신청 화면에서 확인 부탁드립니다.</p>
-          </li>
-          <li>
-            <span>교환/반품 불가 안내</span>
-            <strong>전자상거래 등에서 소비자보호에 관한 법률에 따라 다음의 경우 청약철회가 제한될 수 있습니다.</strong>
-            <p>고객님이 상품 포장을 개봉하여 사용 또는 설치 완료되어 상품의 가치가 훼손된 경우</p>
-            <p>(단, 내용 확인을 위한 포장 개봉의 경우는 예외)</p>
-            <p>고객님의 단순변심으로 인한 교환/반품 신청이 상품 수령한 날로부터 7일이 경과한 경우</p>
-            <p>신선식품(냉장/냉동 포함)을 단순변심/주문착오로 교환/반품 신청하는 경우</p>
-            <p>고객님의 사용 또는 일부 소비에 의해 상품의 가치가 훼손된 경우</p>
-            <p>시간 경과에 따라 상품 등의 가치가 현저히 감소하여 재판매가 불가능한 경우</p>
-            <p>복제가 가능한 재화 등의 포장을 훼손한 경우(DVD, CD, 도서 등 복제 가능한 상품)</p>
-            <p>고객님이 이상 여부를 확인한 후 설치가 완료된 상품의 경우(가전, 가구, 헬스기구 등)</p>
-            <p>고객님의 요청에 따라 개별적으로 주문제작되는 상품으로 재판매가 불가능한 경우(이니셜 표시상품, 사이즈 맞춤상품 등)</p>
-            <p>구매한 상품의 구성품이 누락된 경우(화장품 세트, 의류부착 악세서리, 가전제품 부속품, 사은품 등)</p>
-            <p>기타, 상품의 교환, 환불 및 상품 결함 등의 보상은 소비자분쟁해결기준(공정거래위원회 고시)에 의함</p>
-          </li>
-        </ul>
-        <p>자세한 내용은 <a href="#">고객센터</a>로 문의 부탁드립니다. (A/S 문의는 제조사로 먼저 문의 시 빠르게 처리 가능합니다.)</p>
-        <p>전자상거래 등에서의 소비자 보호에 관한 법률에 의한 반품규정이 판매자가 상품상세 페이지 등에서 개별적으로 고지 또는 지정한 반품조건보다 우선합니다.</p>
-      </div>
-    </section>
-    <article>
-      <ul>
-        <li>
           <p>피코크 브라운치즈와플 288g</p>
           <button>&#45;</button>
           <input type="text" value="1">
           <button>&#43;</button>
           <p><span>5,980</span>원</p>
-        </li>
+        </div>
+        <p>합계 <span>5,980</span><span>원</span></p>
+        <div>
+          <input type="checkbox">
+          <p>정기적으로 상품을 배송받을 수 있습니다.</p>
+          <button>장바구니</button>
+          <button>바로구매</button>
+          <button>♡</button>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <section>
+    <!-- 함께 보면 좋은 상품 -->
+    <h2>함께 보면 좋은 상품 <a href="#">더보기 &lt;</a></h2> <!-- h3 태그안에 a 태그 검사결과 괜찮! -->
+    <button>&lt;</button>
+    <button>&gt;</button>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>PEACOCK</p>
+      <p>피코크 브라운치즈 와플 288g [NEO택배]</p>
+      <p><span>5,980</span>원</p>
+      <p>(10g당:208원)</p>
+      <p><span>★★★★★</span>(2개)</p>
+      <p>새벽배송 가능</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>PEACOCK</p>
+      <p>피코크 우리밀버터와플 288g</p>
+      <p><span>4,980</span>원</p>
+      <p>(10g당:173원)</p>
+      <p><span>★★★★★</span>(22개)</p>
+      <p>새벽배송 가능</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <img src="img/채워두기용.png" alt="SSG푸드마켓 로고">
+      <p>[로투스]오리지날 벨기에 와플 위드 초콜렛 57.5g</p>
+      <p><span>990</span>원</p>
+      <p>(10g당:171원)</p>
+      <p><span>★★★★★</span>(7,054개)</p>
+      <p>새벽배송 가능</p>
+      <button>#커피와함께</button>
+      <button>#출출할때</button>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135g)</p>
+      <p><span>1,900</span>원</p>
+      <p>(10g당:1,408원)</p>
+      <p>★★★★★ <span>(1개)</span></p>
+      <p>새벽배송 가능</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>[올바이오]유기농 스트룹 와플 2종 택 1</p>
+      <p><span>6,860</span>원</p> <!-- 블록으로 넣고싶으면 p 태그안에 span태그 보통 안넣어서 찾아보기. ex. span span 으로 주기 -->
+      <p>유기농</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>[크라운] 버터와플 316g (NEO.002택배)</p>
+      <p><span>2,980</span>원 <s>4,380</s><span>원</span><img src="img/채워두기용.png" alt="under_arrow"></p>
+      <p>(10g당:95원)</p>
+      <p>★★★★★ <span>(130개)</span></p>
+      <p>새벽배송 가능</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135gx15개)</p>
+      <p><span>31,000</span>원</p>
+      <p>(100ea당:1,531원)</p>
+      <p>★★★★★ <span>(3개)</span></p>
+      <p>무료배송</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135gx15개)</p>
+      <p><span>31,000</span>원</p>
+      <p>(100ea당:1,531원)</p>
+      <p>★★★★★ <span>(3개)</span></p>
+      <p>무료배송</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135gx15개)</p>
+      <p><span>31,000</span>원</p>
+      <p>(100ea당:1,531원)</p>
+      <p>★★★★★ <span>(3개)</span></p>
+      <p>무료배송</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135gx15개)</p>
+      <p><span>31,000</span>원</p>
+      <p>(100ea당:1,531원)</p>
+      <p>★★★★★ <span>(3개)</span></p>
+      <p>무료배송</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135gx15개)</p>
+      <p><span>31,000</span>원</p>
+      <p>(100ea당:1,531원)</p>
+      <p>★★★★★ <span>(3개)</span></p>
+      <p>무료배송</p>
+    </div>
+    <div class="recommend_goods">
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>주식회사 크라운</p>
+      <p>버터와플(135gx15개)</p>
+      <p><span>31,000</span>원</p>
+      <p>(100ea당:1,531원)</p>
+      <p>★★★★★ <span>(3개)</span></p>
+      <p>무료배송</p>
+    </div>
+  </section>
+  <section>
+    <!-- 상품상세정보 ~ 인기상품 바로 전까지 -->
+    <nav>
+      <!-- 상품 관련 네비게이션 -->
+      <ul>
+        <li><a href="#">상품상세정보</a></li>
+        <li><a href="#">고객리뷰 (24)</a></li>
+        <li><a href="#">배송/반품/교환 안내</a></li>
       </ul>
-      <p>합계 <span>5,980</span> <span>원</span></p>
-      <input type="checkbox">
-      <p>정기배송</p>
-      <p>정기적으로 배송받을 수 있습니다.</p>
-      <button>장바구니</button>
-      <button>바로구매</button>
-      <button>♡</button>
-    </article>
-    <section>
-      <!-- 피코크 인기상품 -->
-      <h2>PEACOCK 인기상품 <span>브랜드샵 ></span>
-        <button>&lt;</button>
-        <button>&gt;</button>
-      </h2>
+    </nav>
+    <div>
+      <!-- 상품상세정보 -->
+      <h2>상품상세정보</h2>
+      <p>상품번호 : 1000241675735</p>
+      <div id=goods_introduction>
+        <p>풍미가 남다른 <br>브라운 치즈 와플</p>
+        <p>시노베 브라운 치즈를 넣어 풍미가 남다른 와플입니다. 달콤하면서도 짭조름한 맛이 조화를 이루는 와플로, 커피나 와인과 함께 즐겨보시길 추천드려요.</p>
+        <img src="img/채워두기용.png" alt="와플 사진 1">
+        <img src="img/채워두기용.png" alt="큰따옴표">
+        <p>노르웨이에서 날아온 단짠 브라운 치즈 사용</p>
+        <img src="img/채워두기용.png" alt="큰따옴표">
+        <p>특별한 풍미가 매력적인 프리미엄 와플 스낵</p>
+        <img src="img/채워두기용.png" alt="와플 사진 2">
+        <p>브라운 치즈 와플</p>
+        <p>노르웨이 소 우유를 카라멜 라이징 하여 만든 시노베 브라운 치즈가 들어간 브라운 치즈 와플입니다. <br>
+          브라운 치즈는 노르웨이에서 150년 이상 역사를 가진 전통 치즈예요. 특히 단 맛과 짭조름한 맛이 <br>
+          조화를 이루며 유청을 오랜 시간 졸인 뒤 크림을 넣었기 때문에 먹음직스러운 갈색빛을 띄고 고소한 <br>
+          맛이 있어요. 커피, 와인 한 잔과 함께 드셔도 정말 맛있는 브라운 치즈 와플을 지금 바로 만나보세요.
+        </p>
+        <img src="img/채워두기용.png" alt="와플 사진 3">
+        <img src="img/채워두기용.png" alt="돋보기">
+        <p>아래 이미지에 마우스를 올리시면 확대됩니다</p>
+        <img src="img/채워두기용.png" alt="와플 상세 사진">
+        <img src="img/채워두기용.png" alt="와플 상품 설명">
+        <img src="img/채워두기용.png" alt="느낌표">
+        <p>SSG.COM에서 제공하는 모든 이미지 및 콘텐츠는 저작권법에 의거 보호받는 자산으로 <br>
+          무단 복제, 배포, 도용 시 법적조치를 받을 수 있음을 알려드립니다.
+        </p>
+        <p>Copyright (C) SSG.COM All rights reserved. All pictures cannot be copied without permission.</p>
+      </div>
+      <div id="good_details">
+        <p>상품필수정보</p>
+        <table>
+          <tr>
+            <th>품명 및 모델명</th>
+            <th>식품의 유형</th>
+            <th>생산자 및 소재지</th>
+            <th>수입자</th>
+            <th>제조연월일/유통기한</th>
+            <th>포장 단위별 내용물의 용량 (중량), 수량, 크기</th>
+            <th>주원료/함량 (원료 원산지)</th>
+            <th>영양성분</th>
+            <th>유전자 변형식품 여부</th>
+            <th>사용할 때 주의사항</th>
+            <th>소비자 상담 관련 전화번호</th>
+            <th>수입식품안전관리특별법에 따른 수입신고 필함 여부</th>
+          </tr>
+          <tr>
+            <td>브라운 치즈 와플</td>
+            <td>과자</td>
+            <td>(주)삼아인터내셔날 / 충남 아산시 신차연 서부남로 270번길 48 (상세설명 참조)</td>
+            <td>해당사항 없음</td>
+            <td>점포 배송 상품으로 각 점포별 제조일과 입고일이 상이하여, 유통기한이 다릅니다. 이마트 점포상품과 동일한 품질을 유지한 상품이 배송됩니다. ※ 해당 정보에 대한 문의는
+              고객센터(1577-3419)로 문의해주세요/점포 배송 상품으로 각 점포별 제조일과 입고일이 상이하여, 유통기한이 다릅니다. 이마트 점포상품과 동일한 품질을 유지한 상품이 배송됩니다. ※
+              해당 정보에 대한 문의는 고객센터(1577-3419)로 문의해주세요/측면 표기일까지</td>
+            <td>288g (24g X 12봉)</td>
+            <td>상세설명참조</td>
+            <td>상세설명참조</td>
+            <td>해당사항 없음</td>
+            <td>상세설명참조</td>
+            <td>02-380-5678</td>
+            <td>해당사항 없음</td>
+          </tr>
+        </table>
+        <div>
+          <img src="img/채워두기용.png" alt="경보기 아이콘">
+          <p>
+            <b>상품 정보</b>에 문제가 있나요?
+          </p>
+          <a href="#">신고하기></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-- 고객리뷰 -->
+      <h2>고객리뷰(24)</h2>
+      <img src="img/채워두기용.png" alt="광고. 파워리뷰어에 도전하세요.">
+      <div>
+        <p>구매고객 총별점</p>
+        <p>★★★★★</p>
+        <p>4.8 <span>/5</span><img src="img/채워두기용.png" alt="표정 이모티콘"></p>
+      </div>
+      <p>※ 리뷰 등록, 수정, 삭제 및 상세 내용은 [MY SSG > 활동관리 > 리뷰 관리]에서 확인하실 수 있습니다.</p>
+      <div>
+        <ul>
+          <li>전체 (24)</li>
+          <li>포토 (1)</li>
+          <li>동영상 (0)</li>
+        </ul>
+        <div>
+          <ul>
+            <li>추천순</li>
+            <!-- ul 안에 글자가 들어가도 안됨 li외에는 안됨. li 하나 더 추가. 두번째 li 에 ul 하는 방식-->
+            <li>
+              <ul>
+                <li>추천순</li>
+                <li>최신순</li>
+                <li>평점높은순</li>
+                <li>평점낮은순</li>
+              </ul>
+            </li>
+          </ul>
+          <img src="img/채워두기용.png" alt="아래 화살표">
+        </div>
+        <!-- <button>은 내부 HTML 콘텐츠(<em>, <strong>, 심지어 <img>도)에 더해 ::after와 ::before 의사 요소를 사용하는 복잡한 렌더링도 가능합니다. - mdn -->
+        <!-- ul, ol 자식은 li 만 가능. 글자 안됨!!! li 외에 아무것도 들어가면 안됨! -->
+        <button>내점포만보기</button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <p>1</p>
+            <p>★★★★★</p>
+            <img src="img/채워두기용.png" alt="카메라 아이콘">
+            <p>한봉3개씩 낱개포장이고 치즈맛에 많이 나서 치즈쿠키 같아요. 약간 느끼한거 빼면 평탑니다. 흠.. 궁금해서 함 주문해?는데 걍 기성 버터와플이 더 개취인듯..</p>
+            <p>ice*******</p>
+            <p>2021-10-11</p>
+            <div>
+              <p>한봉3개씩 낱개포장이고 치즈맛에 많이 나서 치즈쿠키 같아요. 약간 느끼한거 빼면 평탑니다. 흠.. 궁금해서 함 주문해?는데 걍 기성 버터와플이 더 개취인듯..</p>
+              <img src="img/채워두기용.png" alt="사진">
+            </div>
+          </li>
+          <li>
+            <p>2</p>
+            <p>★★★★★</p>
+            <p>한상자에 12개 들어있어요! 시중에 파는 버터와플과자 그거보다 두껍고 좀 더 부드럽데 바삭하게 씹히는 식감이고 향은 치즈향이 강한데 맛은 살짝 나요! 커피나 우유찍먹해도 맛있을거
+              같아요!! 시노베 브라운치즈 와플 과자 너무 궁금했는데 성분표보니까 거의똑같고 제조원도 같아서 이마트에서 주문해봤는데 가성비도 좋고 맛있어요~~
+            </p>
+            <p>qkr*******</p>
+            <p>2021-10-20</p>
+            <div>
+              <p>한상자에 12개 들어있어요! 시중에 파는 버터와플과자 그거보다 두껍고 좀 더 부드럽데 바삭하게 씹히는 식감이고 향은 치즈향이 강한데 맛은 살짝 나요! 커피나 우유찍먹해도 맛있을거
+                같아요!! 시노베 브라운치즈 와플 과자 너무 궁금했는데 성분표보니까 거의똑같고 제조원도 같아서 이마트에서 주문해봤는데 가성비도 좋고 맛있어요~~
+              </p>
+            </div>
+          </li>
+          <li>
+            <p>3</p>
+            <p>★★★★★</p>
+            <p>우왕. 너무 맛있어요. 어린시절 제과점서 사먹던 치즈비스킷 맛이 나요
+              요즘은 그런거 안나와서 섭섭했는데 그 맛이네요.
+              브라운치즈는 안먹어봐서 이맛이 그맛인지는 몰겄그유
+            </p>
+            <p>elv*******</p>
+            <p>2021-10-13</p>
+            <div>
+              <p>우왕. 너무 맛있어요. 어린시절 제과점서 사먹던 치즈비스킷 맛이 나요
+                요즘은 그런거 안나와서 섭섭했는데 그 맛이네요.
+                브라운치즈는 안먹어봐서 이맛이 그맛인지는 몰겄그유
+              </p>
+            </div>
+          </li>
+        </ul>
+        <button>1</button>
+      </div>
+    </div>
+    <div>
+      <!-- 배송/반품/교환 안내 -->
+      <h2>배송안내</h2>
       <ul>
         <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>14,900</span>원</p>
-          <p>(10g당:207원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
+          <img src="img/채워두기용.png" alt="쓱배송 로고">
+          <p>쓱배송 이마트</p>
+          <p>원하는 시간에 원하는 장소로 배송 됩니다.</p>
+          <p>4만원 이상 무료배송 <br>
+            4만원 미만 배송비 3000원</p>
         </li>
         <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>14,900</span>원</p>
-          <p>(10g당:207원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
+          <img src="img/채워두기용.png" alt="쓱배송 트레이더스 로고">
+          <p>쓱배송 트레이더스</p>
+          <p>무거운 상품도 집에서 편하게 받아보세요.</p>
+          <p>10만원 이상 배송비 2000원 <br>
+            10만원 미만 배송비 4000원</p>
         </li>
         <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>14,900</span>원</p>
-          <p>(10g당:207원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
+          <img src="img/채워두기용.png" alt="새벽배송 로고">
+          <p>새벽배송</p>
+          <p>전날 밤 12시까지 주문하면 아침 6시 전에 배송됩니다.</p>
+          <p>4만원 이상 무료배송 <br>
+            4만원 미만 배송비 3000원</p>
         </li>
         <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>14,900</span>원</p>
-          <p>(10g당:207원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
+          <img src="img/채워두기용.png" alt="택배 아이콘">
+          <p>택배 배송 / 점포 택배</p>
+          <p>점포 또는 업체 및 산지에서 주문 후 평균 2~3일 이내 택배 배송됩니다</p>
+          <p>상품상세 상단 표기된 배송비 참고</p>
         </li>
         <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>14,900</span>원</p>
-          <p>(10g당:207원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
+          <img src="img/채워두기용.png" alt="매장픽업 아이콘">
+          <p>매장픽업</p>
+          <p>이마트에 직접 방문해서 상품을 픽업! 더 빠르게 만나보세요!</p>
+          <p>배송비 없음</p>
         </li>
         <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>14,900</span>원</p>
-          <p>(10g당:207원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
-        </li>
-        <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>7,980</span>원</p>
-          <p>(10g당:200원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
-        </li>
-        <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>7,980</span>원</p>
-          <p>(10g당:200원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
-        </li>
-        <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>7,980</span>원</p>
-          <p>(10g당:200원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
-        </li>
-        <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>7,980</span>원</p>
-          <p>(10g당:200원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
-        </li>
-        <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>7,980</span>원</p>
-          <p>(10g당:200원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
-        </li>
-        <li>
-          <img src="img/채워두기용.png" alt="상품 사진">
-          <img src="img/채워두기용.png" alt="이마트몰 로고">
-          <p>PEACOCK</p>
-          <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
-          <p><span>7,980</span>원</p>
-          <p>(10g당:200원)</p>
-          <hr>
-          <p>새벽배송 가능</p>
+          <img src="img/채워두기용.png" alt="해외직구 아이콘">
+          <p>해외직구</p>
+          <p>해외 브랜드 혹은 협력 업체가 소싱한 상품이 해외에서 고객님께 배송됩니다.</p>
+          <p>상품상세 상단 표기된 배송비 참고</p>
         </li>
       </ul>
-    </section>
-    <section>
-      <!-- 삼아인터내셔날 상품 -->
-      <h3>(주)삼아인터내셔날 스토어 상품
-        <button>&lt;</button>
-        <button>&gt;</button>
-      </h3>
-      <div>
-        <img src="img/채워두기용.png" alt="스토어 사진">
-        <p>(주)삼아인터내셔날 ></p>
-        <p>과자/간식/시리얼/빙과 주간 매출 상위 5% 스토어</p>
-        <button>♡ 좋아요</button>
-      </div>
-      <div>
+      <ul>
+        <li>무료배송 및 배송비 할인은 동일한 배송딱지가 붙은 상품들의 합계금액을 기준으로 적용됩니다.(업체배송/일부 별도 배송 제외)</li>
+        <li>택배 배송기일은 휴일 포함여부 및 상품 재고상황, 택배사 사정에 의해 지연될 수 있습니다.</li>
+        <li>상품별/권역별로 가능한 배송유형이 다릅니다. 상품상세 상단에 표기된 배송정보에서 확인해주세요.</li>
+        <li>제주/도서산간 지역은 추가 운임이 발생할 수 있습니다.</li>
+        <li>[명절배송] 수취거부나 장기간 부재로 배송이 불가능한 상품은 주문 고객 주소로 반송 됩니다.</li>
+        <li>[명절배송] 신선세트(정육,청과,선어등)의 경우 수취인 부재 또는 배송지 정보 오류로 인해 반송될 경우 교환/환불이 제한됩니다.</li>
+        <li>[명절배송] 냉장/냉동 상품은 희망발송일 지정이 불가하며, 특정일로부터 순차발송 됩니다. 자세한 내용은 주문서에서 확인해 주시기 바랍니다.</li>
+        <li>[다중배송] 장바구니에서 여러 주소지로 한번에 주문 결제가 가능합니다.(일부상품 제외)</li>
+      </ul>
+      <h2>교환 및 반품 안내</h2>
+      <ul>
+        <li>
+          <span>교환/반품 신청기간</span>
+          <p>단순변심 및 사이즈/색상 불만에 관련된 교환/반품 신청은 배송완료 후 7일 이내에 가능합니다.</p>
+          <p>상품이 표기/광고내용과 다르거나 계약내용과 다른 경우 상품을 받으신 날부터 3개월 이내,</p>
+          <p>또는 사실을 알게된 날(알 수 있었던 날)부터 30일 이내에 신청 가능합니다.</p>
+        </li>
+        <li>
+          <span>교환/반품 회수(배송)비용</span>
+          <p>상품의 불량/하자 또는 표시광고 및 계약 내용과 다른 경우 해당 상품의 회수(배송)비용은 무료이나, 고객님의 단순변심 및 사이즈/색상 불만에 관련된 교환/반품의 경우 택배비는 고객님
+            부담입니다.</p>
+          <p><strong>반품 배송비: 3,000원</strong><br><strong>교환 배송비: 6,000원</strong><br>제주/도서산간 지역은 추가 운임이 발생할 수 있습니다.</p>
+          <p>단, 반품/교환 비용은 상품 및 반품/교환 사유에 따라 변경될 수 있으므로 반품/교환 신청 화면에서 확인 부탁드립니다.</p>
+        </li>
+        <li>
+          <span>교환/반품 불가 안내</span>
+          <strong>전자상거래 등에서 소비자보호에 관한 법률에 따라 다음의 경우 청약철회가 제한될 수 있습니다.</strong>
+          <p>고객님이 상품 포장을 개봉하여 사용 또는 설치 완료되어 상품의 가치가 훼손된 경우</p>
+          <p>(단, 내용 확인을 위한 포장 개봉의 경우는 예외)</p>
+          <p>고객님의 단순변심으로 인한 교환/반품 신청이 상품 수령한 날로부터 7일이 경과한 경우</p>
+          <p>신선식품(냉장/냉동 포함)을 단순변심/주문착오로 교환/반품 신청하는 경우</p>
+          <p>고객님의 사용 또는 일부 소비에 의해 상품의 가치가 훼손된 경우</p>
+          <p>시간 경과에 따라 상품 등의 가치가 현저히 감소하여 재판매가 불가능한 경우</p>
+          <p>복제가 가능한 재화 등의 포장을 훼손한 경우(DVD, CD, 도서 등 복제 가능한 상품)</p>
+          <p>고객님이 이상 여부를 확인한 후 설치가 완료된 상품의 경우(가전, 가구, 헬스기구 등)</p>
+          <p>고객님의 요청에 따라 개별적으로 주문제작되는 상품으로 재판매가 불가능한 경우(이니셜 표시상품, 사이즈 맞춤상품 등)</p>
+          <p>구매한 상품의 구성품이 누락된 경우(화장품 세트, 의류부착 악세서리, 가전제품 부속품, 사은품 등)</p>
+          <p>기타, 상품의 교환, 환불 및 상품 결함 등의 보상은 소비자분쟁해결기준(공정거래위원회 고시)에 의함</p>
+        </li>
+      </ul>
+      <p>자세한 내용은 <a href="#">고객센터</a>로 문의 부탁드립니다. (A/S 문의는 제조사로 먼저 문의 시 빠르게 처리 가능합니다.)</p>
+      <p>전자상거래 등에서의 소비자 보호에 관한 법률에 의한 반품규정이 판매자가 상품상세 페이지 등에서 개별적으로 고지 또는 지정한 반품조건보다 우선합니다.</p>
+    </div>
+  </section>
+  <article>
+    <ul>
+      <li>
+        <p>피코크 브라운치즈와플 288g</p>
+        <button>&#45;</button>
+        <input type="text" value="1">
+        <button>&#43;</button>
+        <p><span>5,980</span>원</p>
+      </li>
+    </ul>
+    <p>합계 <span>5,980</span> <span>원</span></p>
+    <input type="checkbox">
+    <p>정기배송</p>
+    <p>정기적으로 배송받을 수 있습니다.</p>
+    <button>장바구니</button>
+    <button>바로구매</button>
+    <button>♡</button>
+  </article>
+  <section>
+    <!-- 피코크 인기상품 -->
+    <h2>PEACOCK 인기상품 <span>브랜드샵 ></span>
+      <button>&lt;</button>
+      <button>&gt;</button>
+    </h2>
+    <ul>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
         <p>PEACOCK</p>
-        <a>피코크 브라운치즈와플 288g [NEO택배]</a>
-        <p><span>5,980</span>원</p>
-        <p>(10g당:208원)</p>
-        <p>★★★★★ (2개)</p>
+        <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>14,900</span>원</p>
+        <p>(10g당:207원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
         <p>PEACOCK</p>
-        <a>피코크 브라운치즈와플 288g [NEO택배]</a>
-        <p><span>5,980</span>원</p>
-        <p>(10g당:208원)</p>
-        <p>★★★★★ (2개)</p>
+        <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>14,900</span>원</p>
+        <p>(10g당:207원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
         <p>PEACOCK</p>
-        <a>피코크 브라운치즈와플 288g [NEO택배]</a>
-        <p><span>5,980</span>원</p>
-        <p>(10g당:208원)</p>
-        <p>★★★★★ (2개)</p>
+        <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>14,900</span>원</p>
+        <p>(10g당:207원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
         <p>PEACOCK</p>
-        <a>피코크 브라운치즈와플 288g [NEO택배]</a>
-        <p><span>5,980</span>원</p>
-        <p>(10g당:208원)</p>
-        <p>★★★★★ (2개)</p>
+        <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>14,900</span>원</p>
+        <p>(10g당:207원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>No Brand</p>
-        <a>노브랜드 바닐라 미니웨하스 300g</a>
-        <p><span>2,980</span>원</p>
-        <p>(10g당:100원)</p>
-        <p>★★★★★ (5,220개)</p>
+        <p>PEACOCK</p>
+        <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>14,900</span>원</p>
+        <p>(10g당:207원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>No Brand</p>
-        <a>노브랜드 바닐라 미니웨하스 300g</a>
-        <p><span>2,980</span>원</p>
-        <p>(10g당:100원)</p>
-        <p>★★★★★ (5,220개)</p>
+        <p>PEACOCK</p>
+        <p>피코크 프렌치비스킷콜렉션 720g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>14,900</span>원</p>
+        <p>(10g당:207원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>No Brand</p>
-        <a>노브랜드 바닐라 미니웨하스 300g</a>
-        <p><span>2,980</span>원</p>
-        <p>(10g당:100원)</p>
-        <p>★★★★★ (5,220개)</p>
+        <p>PEACOCK</p>
+        <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>7,980</span>원</p>
+        <p>(10g당:200원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-      <div>
+      </li>
+      <li>
         <img src="img/채워두기용.png" alt="상품 사진">
         <img src="img/채워두기용.png" alt="이마트몰 로고">
-        <p>No Brand</p>
-        <a>노브랜드 바닐라 미니웨하스 300g</a>
-        <p><span>2,980</span>원</p>
-        <p>(10g당:100원)</p>
-        <p>★★★★★ (5,220개)</p>
+        <p>PEACOCK</p>
+        <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>7,980</span>원</p>
+        <p>(10g당:200원)</p>
         <hr>
         <p>새벽배송 가능</p>
-      </div>
-    </section>
+      </li>
+      <li>
+        <img src="img/채워두기용.png" alt="상품 사진">
+        <img src="img/채워두기용.png" alt="이마트몰 로고">
+        <p>PEACOCK</p>
+        <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>7,980</span>원</p>
+        <p>(10g당:200원)</p>
+        <hr>
+        <p>새벽배송 가능</p>
+      </li>
+      <li>
+        <img src="img/채워두기용.png" alt="상품 사진">
+        <img src="img/채워두기용.png" alt="이마트몰 로고">
+        <p>PEACOCK</p>
+        <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>7,980</span>원</p>
+        <p>(10g당:200원)</p>
+        <hr>
+        <p>새벽배송 가능</p>
+      </li>
+      <li>
+        <img src="img/채워두기용.png" alt="상품 사진">
+        <img src="img/채워두기용.png" alt="이마트몰 로고">
+        <p>PEACOCK</p>
+        <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>7,980</span>원</p>
+        <p>(10g당:200원)</p>
+        <hr>
+        <p>새벽배송 가능</p>
+      </li>
+      <li>
+        <img src="img/채워두기용.png" alt="상품 사진">
+        <img src="img/채워두기용.png" alt="이마트몰 로고">
+        <p>PEACOCK</p>
+        <p>피코크 초코프레첼 400g (NEO2 택배)★쓱데이SSG단독한정판</p>
+        <p><span>7,980</span>원</p>
+        <p>(10g당:200원)</p>
+        <hr>
+        <p>새벽배송 가능</p>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <!-- 삼아인터내셔날 상품 -->
+    <h3>(주)삼아인터내셔날 스토어 상품
+      <button>&lt;</button>
+      <button>&gt;</button>
+    </h3>
+    <div>
+      <img src="img/채워두기용.png" alt="스토어 사진">
+      <p>(주)삼아인터내셔날 ></p>
+      <p>과자/간식/시리얼/빙과 주간 매출 상위 5% 스토어</p>
+      <button>♡ 좋아요</button>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>PEACOCK</p>
+      <a>피코크 브라운치즈와플 288g [NEO택배]</a>
+      <p><span>5,980</span>원</p>
+      <p>(10g당:208원)</p>
+      <p>★★★★★ (2개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>PEACOCK</p>
+      <a>피코크 브라운치즈와플 288g [NEO택배]</a>
+      <p><span>5,980</span>원</p>
+      <p>(10g당:208원)</p>
+      <p>★★★★★ (2개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>PEACOCK</p>
+      <a>피코크 브라운치즈와플 288g [NEO택배]</a>
+      <p><span>5,980</span>원</p>
+      <p>(10g당:208원)</p>
+      <p>★★★★★ (2개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>PEACOCK</p>
+      <a>피코크 브라운치즈와플 288g [NEO택배]</a>
+      <p><span>5,980</span>원</p>
+      <p>(10g당:208원)</p>
+      <p>★★★★★ (2개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>No Brand</p>
+      <a>노브랜드 바닐라 미니웨하스 300g</a>
+      <p><span>2,980</span>원</p>
+      <p>(10g당:100원)</p>
+      <p>★★★★★ (5,220개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>No Brand</p>
+      <a>노브랜드 바닐라 미니웨하스 300g</a>
+      <p><span>2,980</span>원</p>
+      <p>(10g당:100원)</p>
+      <p>★★★★★ (5,220개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>No Brand</p>
+      <a>노브랜드 바닐라 미니웨하스 300g</a>
+      <p><span>2,980</span>원</p>
+      <p>(10g당:100원)</p>
+      <p>★★★★★ (5,220개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+    <div>
+      <img src="img/채워두기용.png" alt="상품 사진">
+      <img src="img/채워두기용.png" alt="이마트몰 로고">
+      <p>No Brand</p>
+      <a>노브랜드 바닐라 미니웨하스 300g</a>
+      <p><span>2,980</span>원</p>
+      <p>(10g당:100원)</p>
+      <p>★★★★★ (5,220개)</p>
+      <hr>
+      <p>새벽배송 가능</p>
+    </div>
+  </section>
   </div>
 
   <aside>
